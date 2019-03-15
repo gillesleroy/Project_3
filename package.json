@@ -1,0 +1,30 @@
+{
+  "name": "stuffer",
+  "version": "1.0.0",
+  "description": "stuffer app",
+  "main": "server.js",
+  "engines": {
+    "node": "8.1.1",
+    "npm": "5.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hughkohl13/Project_2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hughkohl13/Project_2/issues"
+  },
+  "homepage": "https://github.com/hughkohl13/Project_2#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "multer": "^1.4.1",
+    "mysql": "^2.16.0"
+  }
+}

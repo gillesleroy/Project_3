@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css"> -->
+        <title>Stuffer</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"> <!-- Semantic cdn for all-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/button.css">
+        <link rel="stylesheet" href="/css/styles" type="text/css" />
+		    <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="/js/index"></script>
+</head>
+
+<body body data-gr-c-s-loaded="true" class="pushable">
+<!-- page contents -->
+<div class="pusher">
+    <div class="ui inverted vertical masthead center aligned segment" id="masthead" style>
+        <div class="ui container">
+            <div class="ui large secondary inverted pointing menu">
+                <a id="logo" class="active item"> Home </a>
+                <a id="search-owned" class="item">My Stuff</a>
+                <a id="search-borrowed" class="item">Borrowed Stuff</a> 
+                <!-- <a class="item">Contact</a>  -->
+                <div class="right item">
+                    <a id="button-login" class="ui inverted button" style> Log in</a>
+                    <a id="button-signup" class="ui inverted button">Sign Up</a>
+                </div>
+            </div>
+        </div>
+        <div class="ui text Container" style>
+            <h1 id="greetingOne" class="header2" style>
+              
+            </h1>
+            <h1 id="greeting" class="ui inverted header" style>
+                Stuffer
+            </h1>
+            <h1 id="greetingTwo" class="header2" style>
+              
+            </h1>            
+            <!-- <h2 style> Just Stuff it!</h2> -->
+            <div id ="button-post" class="ui huge primary button">
+                <i class="left arrow icon">
+                </i>
+                Share Stuff
+            </div>
+            <div class="ui huge primary button" id="button-borrow">
+                Borrow Stuff
+                <i class="right arrow icon">
+                </i>
+            </div>
+        </div>
+    </div>
+    <div class="ui vertical stripe segment middle aligned">
+            <h3 class="column" id="howitworks"> How it works </h3>
+            <div class="ui three column centered grid ">
+                <div class="column characters">
+                    <!-- <div class="ui" text-align="center"> -->
+                        <img src="/image/lending" height="100px" width="70px">
+                        <h4 class="ui header"> Lend Stuff </h4>
+                        <p> Lending to a neighbour is an excellent way to use that drill or share that book you love.
+                        </p>
+                    <!-- </div> -->
+                </div>    
+                <div class="column characters">
+                        <img src="/image/borrowing" height="100px" width="70px">
+                        <h4 class="ui header" > Borrow Stuff </h4>
+                        <p>
+                            Browse thousands of items shared by your local community for free!
+                        </p>
+                </div>
+                <div class="column characters">
+                        <img src="/image/sharing" height="100px" width="120px">
+                        <h4 class="ui header">  Give Stuff back to your community </h4>
+                        <p>
+                            Kickstart the sharing economy
+                        </p>
+                </div>
+                </div>
+        </div> 
+</div>
+</body>
+<script src="/js/index"></script>
+<script src="/js/common"></script>
+
+</html>

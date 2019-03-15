@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css"> -->
+		
+        <title>Stuffer</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"> <!-- Semantic cdn for all-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/button.css">
+        <link rel="stylesheet" href="/css/styles" type="text/css">
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="/js/index"></script>
+</head>
+
+<body body data-gr-c-s-loaded="true" class="pushable">
+<!-- page contents -->
+<div class="pusher" id="pusherSearch">
+    <div class="ui inverted vertical center aligned segment" id="mastheadSearch">
+            <div class="ui inverted vertical center aligned segment" id="NavSearch" style>
+                    <div class="ui container">
+                        <div class="ui large secondary inverted pointing menu">
+                            <a id="logo" class="item"> Home </a>
+                            <a class="active item">My Stuff</a>
+                            <a class="item">Borrowed Stuff</a>
+                            <a id="button-post" class="item">Add Stuff</a>
+                            <!-- <a class="item">Contact</a>  -->
+                            <div class="right item">
+                                <a class="ui inverted button" style> Log in</a>
+                                <a id="button-signup" class="ui inverted button">Sign Up</a>
+                            </div>
+                        </div>
+                    </div>
+            </div> 
+
+            <div class="ui container" id="searchContainer">
+                    <div class="ui three column grid">
+                        <div class="row" id="searchRow">
+                                <div class="two wide column"></div>
+                                <div class="four wide column">
+                                        <div class="ui category search">
+                                                <div class="ui icon input" id="searchBox">
+                                                    <input id="search-text" class="prompt"  type="text" placeholder="Search Stuff...">
+                                                    <i class="search icon"></i>
+                                                </div>
+                                                <div class="results"></div>
+                                            </div>
+                                </div>
+                      
+                                <div class="four wide column">
+                                    <h3 id="category" >Category</h3>
+                                    <select class="chosen-select" id="select-category">
+                                      </select>
+                                    <!-- <div class="ui selection dropdown">
+                                        <input type="hidden" name="gender">
+                                        <i class="dropdown icon"></i>
+                                        <div class="default text">Category</div>
+                                        <div class="menu">
+
+                                            <div class="item" data-value="1">Male</div>
+                                            <div class="item" data-value="0">Female</div>
+                                        </div>
+                                    </div> -->
+                                </div>
+    
+                                <div class="one wide column" id="searchButtonContainer">
+                                    <div class="ui large blue button" >
+                                                Search
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>   
+        </div> 
+
+<!-- insert cards row -->
+    <div id="cardcontainer">
+        <div id="row"  class="ui three column grid">
+ 
+        </div>
+    </div>
+</div>    
+              
+</body>
+
+<script src="/js/owned"></script>
+<script src="/js/common"></script>
+
+</html>
